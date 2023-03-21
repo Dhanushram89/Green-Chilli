@@ -2169,7 +2169,7 @@ body.visible-sidebar{
   padding-top: var(--padding-top-100);
   padding-bottom: var(--padding-bottom-100);
   overflow: hidden;
-  background-color:var(--color-four);
+  background-color:white;
 }
 
 .menu-section .left-bg{
@@ -2370,24 +2370,24 @@ body.visible-sidebar{
   margin-top: 19px;
   width: 100%;
   height: 30px;
-  border-top: 1px solid var(--white-color-opacity-four);
-  border-bottom: 1px solid var(--white-color-opacity-four);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .menu-tabs .dish-block .title .ttl{
   position: relative;
   float: left;
   padding-right: var(--padding-right-15);
-  background-color:var(--color-four);
+  background-color:
   text-transform: capitalize;
 }
 
 .menu-tabs .dish-block .title .ttl a{
-  color: var(--white-color);
+  color: black;
 }
 
 .menu-tabs .dish-block .title .ttl a:hover{
-  color: var(--main-color);
+  color: sandybrown;
 }
 
 .menu-tabs .dish-block .title .ttl .s-info{
@@ -2405,9 +2405,9 @@ body.visible-sidebar{
   position: relative;
   float: right;
   font-size: var(--font-22);
-  color: var(--main-color);
+  color: ;
   padding-left: var(--padding-left-15);
-  background: var(--body-bg-color);
+  background: ;
 }
 
 .menu-tabs .dish-block .desc{
