@@ -1655,7 +1655,7 @@ body.visible-sidebar{
   position: relative;
   text-transform: uppercase;
   font-weight: 700;
-  color: var(--main-color);
+  color: red;
   font-size: var(--font-12);
   letter-spacing: 0.40em;
   line-height: 1em;
@@ -1708,7 +1708,7 @@ body.visible-sidebar{
   position: relative;
   padding-top: var(--padding-top-100);
   padding-bottom: var(--padding-bottom-50);
-  background: var(--color-five);
+  background: white;
 }
 
 .we-offer-section .right-top-bg{
@@ -1831,7 +1831,7 @@ body.visible-sidebar{
 }
 
 .offer-block h3 a{
-  color: var(--white-color);
+  color: black;
 }
 
 .offer-block .more-link{
@@ -1842,7 +1842,7 @@ body.visible-sidebar{
   display: inline-block;
   vertical-align: top;
   font-size: var(--font-12);
-  color: var(--main-color);
+  color: red;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -1874,7 +1874,7 @@ body.visible-sidebar{
 }
 
 .offer-block .more-link a:hover{
-  color: var(--white-color);
+  color: green;
   border-color: var(--white-color);
 }
 
@@ -1890,7 +1890,7 @@ body.visible-sidebar{
   position: relative;
   padding-top: var(--padding-top-170);
   padding-bottom: var(--padding-bottom-210);
-  background-color:var(--color-four);
+  background-color:white;
 }
 
 .story-section .left-bg{
@@ -1937,7 +1937,7 @@ body.visible-sidebar{
 }
 
 .story-section .booking-info .bk-no a{
-  color: var(--main-color);
+  color: black;
   padding-bottom:var(--padding-bottom-5);
 }
 
@@ -2366,10 +2366,10 @@ body.visible-sidebar{
   content: '';
   position: absolute;
   left: 0;
-  top: 50%;
-  margin-top: 3px;
+  top: 0%;
+  margin-top: 19px;
   width: 100%;
-  height: 6px;
+  height: 30px;
   border-top: 1px solid var(--white-color-opacity-four);
   border-bottom: 1px solid var(--white-color-opacity-four);
 }
@@ -2441,7 +2441,7 @@ body.visible-sidebar{
 .special-offer{
   position: relative;
   background: var(--color-four);
-  padding-bottom: var(--padding-bottom-100);
+  padding-bottom: var(--padding-bottom-5);
 }
 
 .special-offer .outer-container{
@@ -2452,7 +2452,7 @@ body.visible-sidebar{
   margin: 0 auto;
   padding-top: var(--padding-top-80);
   padding-bottom: var(--padding-bottom-100);
-  background: var(--color-five);
+  background: white;
 }
 
 .special-offer .outer-container:before{
@@ -2549,7 +2549,7 @@ body.visible-sidebar{
 }
 
 .offer-block-two h4 a{
-  color: var(--white-color);
+  color: black;
 }
 
 .offer-block-two h4 a:hover{
@@ -2567,7 +2567,7 @@ body.visible-sidebar{
   position: relative;
   font-family:var(--font-family-Forum);
   font-size: var(--font-20);
-  color: var(--main-color);
+  color: sandybrown;
 }
 
 .special-offer .lower-link-box{
@@ -2863,7 +2863,7 @@ body.visible-sidebar{
   padding-left: var(--padding-left-60);
   padding-right: var(--padding-right-60);
   min-height: 100%;
-  background-color:var(--color-five);
+  background-color:white;
 }
 
 .reserve-section .reserv-col .title{
@@ -2877,7 +2877,7 @@ body.visible-sidebar{
 }
 
 .reserve-section .reserv-col .title a{
-  color: var(--main-color);
+  color: rgb(238, 113, 5);
 }
 
 .reserve-section .reserv-col form .row{
@@ -3117,7 +3117,7 @@ body.visible-sidebar{
 
 .why-us{
   position: relative;
-  background: var(--color-four);
+  background: white;
   padding-top: var(--padding-top-100);
   padding-bottom: var(--padding-bottom-60);
 }
@@ -3283,7 +3283,7 @@ body.visible-sidebar{
   position: relative;
   text-transform: uppercase;
   font-weight: 700;
-  color: var(--main-color);
+  color: sandybrown;
   font-size: var(--font-12);
   letter-spacing: 0.40em;
   margin-bottom: var(--margin-bottom-5);
@@ -3344,7 +3344,7 @@ body.visible-sidebar{
 }
 
 .featured-links .link-block .text-block .link a:hover{
-  color: var(--white-color);
+  color: black;
 }
 
 .featured-links .link-block .text-block .link a:hover:before{
@@ -3753,7 +3753,7 @@ body.visible-sidebar{
   line-height: 20px;
   text-transform: uppercase;
   font-weight: 700;
-  color: var(--main-color);
+  color: white;
   font-size: var(--font-12);
   letter-spacing: 0.40em;
   margin-left: var(--margin-left-15);

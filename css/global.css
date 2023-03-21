@@ -441,7 +441,7 @@
 body {
     font-family: var(--font-family-DMsans);
     font-size:var(--font-16);
-    color:var(--text-color);
+    color:sandybrown;
     background: var(--body-bg-color);
     line-height:1.85em;
     font-weight:400;
@@ -476,7 +476,7 @@ h1,h2,h3,h4,h5,h6 {
     margin:0px 0px;
     background:none;
     line-height: 1.20em;
-    color:var(--heading-color);
+    color:white;
     font-family:var(--font-family-Forum);
 }
 
@@ -730,7 +730,7 @@ figure{
 .btn-style-two .btn-wrap .text-one{
     position: relative;
     display: block;
-    color: var(--main-color);
+    color: sandybrown;
     transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
