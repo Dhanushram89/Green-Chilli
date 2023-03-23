@@ -7,18 +7,20 @@
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link href="css/style-1.css" rel="stylesheet">
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <link href="css/responsive.css" rel="stylesheet">
+
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]--> 
 
 </head>
 
-<body>
-  <div class="page-wrapper"> 
+<body class="active">
+  <div class="page-wrapper" class="container"> 
   
     <!-- Preloader -->
     
@@ -29,17 +31,23 @@
         <div class="header-top">
             <div class="auto-container">
                 <div class="inner clearfix">
+                    
                     <div class="top-left clearfix">
                         <ul class="top-info clearfix">
                             <li><i class="icon far fa-map-marker-alt"></i> PC-3,6th block st,Mogappair East,Chennai-6000037,TN</li>
                             <li><i class="icon far fa-clock"></i> Daily : 8.00 am to 10.00 pm</li>
                         </ul>
                     </div>
+                   
                     <div class="top-right clearfix">
                         <ul class="top-info clearfix">
                             <li><a href="tel:+11234567890"><i class="icon far fa-phone"></i> +91 7845164524</a></li>
                             <li><a href="mailto:booking@restaurant.com"><i class="icon far fa-envelope"></i> greenchillies.chennai@gmail.com</a></li>
                         </ul>
+                    </div>
+                    <div class="shopping">
+                        <img src="images/image/shopping.svg">
+                        <span class="quantity">0</span>
                     </div>
                 </div>
             </div>
@@ -129,6 +137,8 @@
                             </nav>
                             <!-- Main Menu End-->
                         </div>
+
+                        
                         <!--Nav Outer End-->
 
                         <div class="links-box clearfix">
@@ -140,6 +150,7 @@
                                     </span>
                                 </a>
                             </div>
+                            
                             <div class="link info-toggler">
                                 <button class="info-btn">
                                     <span class="hamburger">
@@ -495,6 +506,41 @@
         </div>
     </section>
 
+        <div class="list">
+          <div class="item">
+            <img src="images/image/1.PNG">
+            <div class="title">PRODUCT NAME 1</div>
+            <div class="price">120,000</div>
+            <button onclick="addToCard(0)"> Add To Card</button>
+          </div>
+          <div class="item">
+            <img src="images/image/2.PNG">
+            <div class="title">PRODUCT NAME 2</div>
+            <div class="price">120,000</div>
+            <button onclick="addToCard(1)"> Add To Card</button>
+          </div>
+          <div class="item">
+            <img src="images/image/2.PNG">
+            <div class="title">PRODUCT NAME 3</div>
+            <div class="price">220000</div>
+            <button onclick="addToCard(2)"> Add To Card</button>
+          </div>
+        </div>
+    
+    <div class="card">
+        <h1>Card</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+
     <!--Special Dish Section
     <section class="special-dish">
         <div class="bottom-image"><img src="images/resource/image-3.png" alt="" title=""></div>
@@ -535,7 +581,7 @@
     </section>-->
 
     <!--Menu Section-->
-    <section class="menu-section" id="menuup">
+    <section class="menu-section" id="menuup" class="active">
         
         <div class="left-bg"><img src="images/background/bg-5.png" alt="" title=""></div>
         <div class="right-bg"><img src="images/background/bg-6.png" alt="" title=""></div>
@@ -568,13 +614,13 @@
                     <div class="tab active-tab" id="soup">
                         <div class="row clearfix">
                             <div class="menu-col col-lg-6 col-md-12 col-sm-12">
-                                <div class="inner">
+                                <div class="inner" class="card">
                                     <!--Block-->
-                                    <div class="dish-block">
-                                        <div class="inner-box">
+                                    <div class="dish-block" class="list" class="listCard">
+                                        <div class="inner-box" class="item">
                                             <div class="dish-image"><a href="#"><img src="images/resource/menu-image-5.png" alt=""></a></div>
                                             <div style="padding-top: 20px;" class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Chicken Clear Soup </a></h5></div><div class="price"><span>&#x20B9; 100</span></div></div>
-                                            
+                                            <button onclick="addTocart(0)">Add to Cart</button>
                                         </div>
                                     </div>
                                     <!--Block-->
@@ -1820,10 +1866,8 @@
                                             <!--<div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>-->
                                         </div>
                                     </div>
-                                    
                                 </div>
                             </div>
-                           
                         </div>
                     </div>
                     <!--Tab-->
@@ -1905,6 +1949,8 @@
                     </div>
                 </div>    
 
+               
+
             <div class="open-timing">
                 <div class="hours">During winter daily from <span class="theme_color">7:00 pm</span> to <span class="theme_color">9:00 pm</span></div>
                 <div class="link-box">
@@ -1917,6 +1963,7 @@
                 </div>
             </div>
         </div>
+        <script src="app.js"></script>
     </section>
     
 <section class="intro-section">
@@ -2484,6 +2531,7 @@
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-up"></span></div>
 
+<script src="js/app.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -2495,5 +2543,6 @@
 <script src="js/wow.js"></script>
 <script src="js/parallax.min.js"></script>
 <script src="js/custom-script.js"></script>
+
 </body>
 </html>
